@@ -28,7 +28,7 @@ try{// On se connecte à MySQL
                             $_SESSION['mail'] = $login;
                             echo "<p class=\"success\">Votre login est ".$_SESSION['mail']."
                             votre mot de passe est  ".md5($mdp);
-                            header("Location: zebi.html");
+                            header("Location: test.html");
                             exit;
                            
                         }
